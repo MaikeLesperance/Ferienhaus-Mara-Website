@@ -20,7 +20,7 @@
 window.INHALTE = {
 
   // Preis pro Nacht fuer 2 Personen (nur die Zahl, ohne "Euro")
-  preisProNacht: "80",
+  preisProNacht: "90",
 
   // Aufpreis pro Nacht fuer jede weitere Person (nur die Zahl)
   preisWeiterePerson: "15",
