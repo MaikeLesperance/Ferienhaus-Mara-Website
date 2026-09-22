@@ -530,3 +530,33 @@ footer {
   .gallery-thumbs { grid-template-columns: repeat(3, 1fr); }
   .gallery-thumbs img { height: 72px; }
 }
+
+/* Werte aus inhalte.js sollen immer wie der Text drumherum aussehen */
+[data-wert],
+.booking-card [data-wert],
+.price-box [data-wert] {
+  display: inline;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  text-transform: none;
+}
+
+/* Kategorie-Schaltflaechen ueber der Galerie */
+.gallery-filter { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 16px; }
+.gallery-filter button {
+  padding: 9px 17px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--brown);
+  font: inherit;
+  font-size: .92rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.gallery-filter button:hover { border-color: var(--gold); }
+.gallery-filter button.active { background: var(--green); border-color: var(--green); color: var(--ivory); }
+.gallery-filter button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+@media (max-width: 620px) { .gallery-filter button { padding: 8px 13px; font-size: .86rem; } }
