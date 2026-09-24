@@ -1,7 +1,7 @@
 /* =====================================================================
    BILDERLISTE DER GALERIE  -  Ferienhaus Mara
+   Erstellt mit dem Bilder-Werkzeug am 24.9.2026
    Reihenfolge in dieser Liste = Reihenfolge auf der Webseite.
-   Am einfachsten aenderst du sie mit dem Werkzeug "Fotoverwaltung".
    ===================================================================== */
 
 window.GALERIE = [
