@@ -5,7 +5,7 @@
    ===================================================================== */
 
 window.INHALTE = {
-  preisProNacht: "80",
+  preisProNacht: "90",
   preisWeiterePerson: "15",
   maxGaeste: "6",
   wohnflaeche: "80",
